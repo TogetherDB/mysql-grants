@@ -1,6 +1,6 @@
 {
-  "name": "mysql-parse-grants",
-  "version": "1.0.0",
+  "name": "mysql-grants",
+  "version": "0.1.0",
   "description": "This Typescript module parses the grants that MySQL's `SHOW GRANTS` emits.",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,9 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TogetherDB/mysql-parse-grants.git"
+    "url": "git+https://github.com/TogetherDB/mysql-grants.git"
   },
-  "keywords": ["mysql", "grant", "grants", "parser"],
+  "keywords": [
+    "mysql",
+    "grant",
+    "grants",
+    "parser"
+  ],
   "author": "Michel Helms <michelhelms@gmail.com>",
   "license": "MIT",
   "files": [
@@ -22,9 +27,9 @@
     "README.md"
   ],
   "bugs": {
-    "url": "https://github.com/TogetherDB/mysql-parse-grants/issues"
+    "url": "https://github.com/TogetherDB/mysql-grants/issues"
   },
-  "homepage": "https://github.com/TogetherDB/mysql-parse-grants#readme",
+  "homepage": "https://github.com/TogetherDB/mysql-grants#readme",
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
@@ -39,6 +44,7 @@
   },
   "dependencies": {
     "@types/node": "^14.14.25",
+    "split-outer": "^1.1.0",
     "typescript": "^4.1.3"
   }
 }
